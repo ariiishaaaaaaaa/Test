@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arisha Khan - Web & App Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Arisha Khan - Web & App Developer</h1>
+</header>
+
+<section>
+    <div class="skill" onclick="toggleContent('html')">
+        <h3>HTML</h3>
+        <div id="html" class="skill-content">
+            <p>HTML is the standard markup language for creating web pages.</p>
+        </div>
+    </div>
+    <div class="skill" onclick="toggleContent('javascript')">
+        <h3>JavaScript</h3>
+        <div id="javascript" class="skill-content">
+            <p>JavaScript is a programming language used to create dynamic and interactive web pages.</p>
+        </div>
+    </div>
+    <div class="skill" onclick="toggleContent('css')">
+        <h3>CSS</h3>
+        <div id="css" class="skill-content">
+            <p>CSS is used for styling and designing the layout of web pages.</p>
+        </div>
+    </div>
+    <div class="skill" onclick="toggleContent('python')">
+        <h3>Python</h3>
+        <div id="python" class="skill-content">
+            <p>Python is a popular programming language used in web development, data science, and more.</p>
+        </div>
+    </div>
+    <!-- Add more skills as needed -->
+</section>
+
+<section class="social-icons">
+    <a href="https://instagram.com/ariiishaaaaaaaa" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://github.com/ariiishaaaaaaaa" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="mailto:ariiishaaaaaaaa@gmail.com"><i class="fa fa-envelope"></i></a>
+</section>
+
+<section class="form-container">
+    <h2>Contact Me</h2>
+    <form action="mailto:ariiishaaaaaaaa@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone">
+        <textarea name="query" placeholder="Your Query" rows="4" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
